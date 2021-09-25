@@ -728,15 +728,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 309592517, guid: c91a7d4ec1c8d1b409e173393a3b35f3, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6814760434098572236, guid: c91a7d4ec1c8d1b409e173393a3b35f3,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6814760434098572236, guid: c91a7d4ec1c8d1b409e173393a3b35f3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6814760434098572237, guid: c91a7d4ec1c8d1b409e173393a3b35f3,
         type: 3}
