@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7c4f3bd00f1dfc84ab188422d8608666
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CHI_Speedy Right_italic_full_free
+  fontNames:
+  - CHI_Speedy Right_italic_full_free
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
