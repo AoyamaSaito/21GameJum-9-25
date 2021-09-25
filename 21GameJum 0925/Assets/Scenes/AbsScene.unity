@@ -121,80 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &152564938
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4341321863425351388, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_Name
-      value: StageManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341321863425351388, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1921.5957
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1044.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -133.78137
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: da85d8ace8e56c649bdadf9dbe046645, type: 3}
 --- !u!1001 &516685356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -205,7 +131,7 @@ PrefabInstance:
     - target: {fileID: 2673582935342576381, guid: cc2553960356c53468b37cc98a68a2c3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2673582935342576381, guid: cc2553960356c53468b37cc98a68a2c3,
         type: 3}
@@ -388,7 +314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.6400003, y: 6.43, z: -10}
+  m_LocalPosition: {x: -4.6400003, y: 4.01, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -458,7 +384,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1152054858
 GameObject:
@@ -520,12 +446,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152054858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.6400003, y: 6.43, z: -10}
+  m_LocalPosition: {x: -4.6400003, y: 4.01, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1480307312}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1204620657 stripped
 GameObject:
@@ -596,7 +522,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 7c4f3bd00f1dfc84ab188422d8608666, type: 3}
     m_FontSize: 140
     m_FontStyle: 0
     m_BestFit: 0
@@ -627,12 +553,12 @@ PrefabInstance:
     - target: {fileID: 4341321863425351388, guid: da85d8ace8e56c649bdadf9dbe046645,
         type: 3}
       propertyPath: m_Name
-      value: StageManager (1)
+      value: 'StageManager '
       objectReference: {fileID: 0}
     - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5024278809651964152, guid: da85d8ace8e56c649bdadf9dbe046645,
         type: 3}
@@ -784,7 +710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 9.7, y: 5.24, z: -10}
+  m_FollowOffset: {x: 9.7, y: 2.82, z: -10}
   m_XDamping: 0
   m_YDamping: 1
   m_ZDamping: 1
@@ -857,7 +783,7 @@ PrefabInstance:
     - target: {fileID: 5186360010877334076, guid: a561e30eaefc08b49a27cd5230c140b4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5186360010877334076, guid: a561e30eaefc08b49a27cd5230c140b4,
         type: 3}
@@ -983,7 +909,7 @@ PrefabInstance:
     - target: {fileID: 2208814590303976624, guid: bd8263e62555688448f3fbb3d4fdd000,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2208814590303976624, guid: bd8263e62555688448f3fbb3d4fdd000,
         type: 3}
@@ -1145,7 +1071,7 @@ PrefabInstance:
     - target: {fileID: 6814760434098572237, guid: c91a7d4ec1c8d1b409e173393a3b35f3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6814760434098572237, guid: c91a7d4ec1c8d1b409e173393a3b35f3,
         type: 3}
@@ -1206,6 +1132,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1327403601}
     m_Modifications:
+    - target: {fileID: 100064862081296123, guid: 0b93fa74b9f844743b37f3952af09344,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 7c4f3bd00f1dfc84ab188422d8608666,
+        type: 3}
     - target: {fileID: 1005061893875961408, guid: 0b93fa74b9f844743b37f3952af09344,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1266,6 +1198,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3146002851323322810, guid: 0b93fa74b9f844743b37f3952af09344,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 7c4f3bd00f1dfc84ab188422d8608666,
+        type: 3}
+    - target: {fileID: 3231622576849283628, guid: 0b93fa74b9f844743b37f3952af09344,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 7c4f3bd00f1dfc84ab188422d8608666,
+        type: 3}
     - target: {fileID: 4702146145731213996, guid: 0b93fa74b9f844743b37f3952af09344,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1316,6 +1260,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5917039156290039645, guid: 0b93fa74b9f844743b37f3952af09344,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 7c4f3bd00f1dfc84ab188422d8608666,
+        type: 3}
     - target: {fileID: 6747695565876706192, guid: 0b93fa74b9f844743b37f3952af09344,
         type: 3}
       propertyPath: m_LocalScale.x

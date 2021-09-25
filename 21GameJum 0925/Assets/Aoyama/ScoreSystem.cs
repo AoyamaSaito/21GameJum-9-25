@@ -23,6 +23,6 @@ public class ScoreSystem : MonoBehaviour
     {
         score = player.transform.position.x - orizinPosition.x;
         scoreText.text ="キョリ : " + (int)score;
-        resultText.text = "" + (int)score;
+        resultText.text = score.ToString("F0");
     }
 }
