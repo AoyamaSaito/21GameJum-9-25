@@ -19,8 +19,6 @@ public class PlayerController : MonoBehaviour
     bool isJump;
     int m_count = 0;
 
-    Vector2 m_vectorH = Vector2.right;
-    Vector2 m_vectorV = Vector2.up;
     Rigidbody2D m_rb;
 
     private void Start()
@@ -30,7 +28,10 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MoveUpDate();
+        if(m_rb)
+        {
+            MoveUpDate();
+        }      
     }
     void MoveUpDate()
     {
@@ -38,7 +39,7 @@ public class PlayerController : MonoBehaviour
     }
     public void InputJump()
     {
-        if (!isJump)
+        if (!isJump && m_rb)
         {
             m_rb.velocity= new Vector2(m_rb.velocity.x, m_jumpSpeed);
             isJump = true;
