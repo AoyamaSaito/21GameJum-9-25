@@ -8,20 +8,20 @@ public class ScoreSystem : MonoBehaviour
     [SerializeField] Text scoreText;
     [SerializeField] Text resultText; 
     GameObject player;
-    Transform orizinPosition;
+    Vector3 orizinPosition;
     public float score = 0;
     // Start is called before the first frame update
     void Start()
     {
         scoreText.fontSize = 140;
         player = GameObject.FindWithTag("Player");
-        orizinPosition = player.transform;
+        orizinPosition = player.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        score = player.transform.position.x - orizinPosition.position.x;
+        score = player.transform.position.x - orizinPosition.x;
         scoreText.text ="キョリ : " + (int)score;
         resultText.text = "" + (int)score;
     }
