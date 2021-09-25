@@ -685,6 +685,12 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/vantan/Desktop/UNITY/21GameJum 0925/21GameJum 0925/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/vantan/Desktop/UNITY/21GameJum 0925/21GameJum 0925/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/vantan/Desktop/UNITY/21GameJum 0925/21GameJum 0925/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

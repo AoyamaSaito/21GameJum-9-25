@@ -24,7 +24,7 @@ public class StageManager : MonoBehaviour
     {
         mapsObj.Add(Instantiate(maps[0]));
         mapsObj.Add(Instantiate(maps[1], new Vector2(mapWidth, 0), Quaternion.identity));
-        mapsObj.Add(Instantiate(maps[2], new Vector2(mapWidth, 0), Quaternion.identity));
+        mapsObj.Add(Instantiate(maps[2], new Vector2(mapWidth + mapWidth, 0), Quaternion.identity));
     }
 
     public void CreateStage()
@@ -45,11 +45,5 @@ public class StageManager : MonoBehaviour
         mapsObj.RemoveAt(0);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "MapGenerator")
-        {
-            CreateStage();
-        }
-    }
+
 }
