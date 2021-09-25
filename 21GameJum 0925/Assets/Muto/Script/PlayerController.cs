@@ -28,26 +28,33 @@ public class PlayerController : MonoBehaviour
         m_rb = this.gameObject.GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if(m_rb)
         {
             MoveUpDate();
-        }      
+        }
+
+        if (Input.GetButtonDown("Fire1") && m_rb && !isJump)
+        {
+            m_rb.velocity = new Vector2(m_rb.velocity.x, m_jumpSpeed);
+            m_jumpAudio.Play();
+            isJump = true;
+        }
     }
     void MoveUpDate()
     {
         m_rb.velocity = new Vector2(m_moveSpeed, m_rb.velocity.y);
     }
-    public void InputJump()
-    {
-        if (!isJump && m_rb)
-        {
-            m_rb.velocity= new Vector2(m_rb.velocity.x, m_jumpSpeed);
-            m_jumpAudio.Play();
-            isJump = true;
-        }
-    }
+    //public void InputJump()
+    //{
+    //    if (!isJump && m_rb)
+    //    {
+    //        m_rb.velocity= new Vector2(m_rb.velocity.x, m_jumpSpeed);
+    //        m_jumpAudio.Play();
+    //        isJump = true;
+    //    }
+    //}
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
