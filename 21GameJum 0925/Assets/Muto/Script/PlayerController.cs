@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -15,7 +13,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] string m_damageTag = " ";
     [SerializeField] UnityEvent m_event = default;
     [SerializeField] StageManager SM;
-    [SerializeField] AudioSource m_audio = default;
+    [SerializeField] AudioSource m_jumpAudio = default;
+    [SerializeField] AudioSource m_speedUpAudio = default;
+    [SerializeField] AudioSource m_bgm = default;
+    [SerializeField] float m_pitchSpeed = 0.3f;
 
     bool isJump;
     int m_count = 0;
@@ -43,7 +44,7 @@ public class PlayerController : MonoBehaviour
         if (!isJump && m_rb)
         {
             m_rb.velocity= new Vector2(m_rb.velocity.x, m_jumpSpeed);
-            m_audio.Play();
+            m_jumpAudio.Play();
             isJump = true;
         }
     }
@@ -72,6 +73,8 @@ public class PlayerController : MonoBehaviour
             if (m_count % m_magnification == 0 && m_count != 0)
             {
                 m_moveSpeed += m_speedUp;
+                m_speedUpAudio.Play();
+                m_bgm.pitch += m_pitchSpeed;
             }
         }
     }
