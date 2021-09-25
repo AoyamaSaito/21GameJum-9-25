@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Aoyama\SceneLoader.cs" />
     <Compile Include="Assets\Aoyama\ScoreSystem.cs" />
     <Compile Include="Assets\Aoyama\StageManager.cs" />
     <Compile Include="Assets\Muto\Script\PlayerController.cs" />

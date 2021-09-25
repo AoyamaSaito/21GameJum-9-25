@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ScoreSystem : MonoBehaviour
 {
     [SerializeField] Text scoreText;
+    [SerializeField] Text resultText; 
     GameObject player;
     Transform orizinPosition;
     public float score = 0;
@@ -22,5 +23,6 @@ public class ScoreSystem : MonoBehaviour
     {
         score = player.transform.position.x - orizinPosition.position.x;
         scoreText.text ="キョリ : " + (int)score;
+        resultText.text = "" + (int)score;
     }
 }
