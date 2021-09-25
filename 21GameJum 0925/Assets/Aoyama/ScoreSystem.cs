@@ -21,6 +21,6 @@ public class ScoreSystem : MonoBehaviour
     void Update()
     {
         score = player.transform.position.x - orizinPosition.position.x;
-        scoreText.text ="キョリ : " + score;
+        scoreText.text ="キョリ : " + (int)score;
     }
 }
